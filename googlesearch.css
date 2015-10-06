@@ -1,0 +1,358 @@
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Code for Top Bar */
+
+#topbar {
+	position: static;
+	display: block;
+}
+
+.toplist li {
+	display: inline;
+	position: static;
+	list-style-type: none;
+	top: -8px;
+	float: right;
+	padding-right: 10px;
+}
+
+#topbartext {
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	a:hover: underline;
+}
+
+/* Code for Google Services Icon */
+
+#googleservices {
+
+}
+
+.icon {
+    position: relative;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.toprow {
+    display: block;
+    position: static;
+    margin-bottom: -11px;
+}
+
+.middlerow {
+    display: block;
+    position: static;
+    margin-bottom: -11px;
+}
+
+.bottomrow {
+    display: block;
+    position: static;
+    margin-bottom: -11px;
+}
+
+#tl {
+	width: 5px;
+	height: 5px; margin: -1px;
+	background: #666666;
+	display: inline-block;
+}
+
+#tm {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+#tr {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+#ml {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+#mm {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+#mr {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+#bl {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+#bm {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+#br {
+    width: 5px;
+    height: 5px;
+    margin: -1px;
+    background: #666666;
+    display: inline-block;
+}
+
+/* Code for Google Notifications Icon */
+
+#bell {
+    display: inline;
+}
+
+#container {
+    position: relative;
+    background: #666666;
+    height: 21px;
+    width: 21px;
+    border-radius: 11px;
+    margin-left: 20px;
+}
+
+#crown {
+    position: absolute;
+    background: #ffffff;
+    height: 2px;
+    width: 2px;
+    border-radius: 1px;
+    margin-top: -17px;
+    margin-left: 29.5px;
+}
+
+#waist {
+    position: absolute;
+    background: #ffffff;
+    height: 7px;
+    width: 6px;
+    border-radius: 5px 5px 0 0;
+    margin-top: -16px;
+    margin-left: 28px;
+}
+
+#soundrim {
+    position: absolute;
+    background: #ffffff;
+    height: 1px;
+    width: 8px;
+    margin-left: 27px;
+    margin-top: -9px;
+}
+
+#clapper {
+    position: absolute;
+    background: #ffffff;
+    height: 2px;
+    width: 2px;
+    border-radius: 1px;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+/* Code for Avatar */
+
+#avatar {
+	position: relative;
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#pictureframe {
+    position: relative;
+    height: 31px;
+    width: 31px;
+    border-radius: 15px;
+    background: #666666;
+}
+
+#face {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background: #ffffff;
+    margin-top: -27px;
+    margin-left: 11.5px;
+}
+
+#torso {
+    position: absolute;
+    height: 14px;
+    width: 10px;
+    background: #ffffff;
+    border-radius: 5px 5px 0 0;
+    margin-top: -20px;
+    margin-left: 11px;
+}
+
+/* Code for Google Logo */
+
+#logo {
+	position: absolute;
+	padding-top: 183px;
+	padding-left: 497px;
+}
+
+/* Code for Search Bar */
+
+#searchbar {
+	position: absolute;
+	padding: 9px;
+	margin-top: 306px;
+	margin-left: 348px;
+	font-size: 16px;
+	width: 560px;
+	border-style: solid, 1px, blue;
+}
+
+/* Code for search buttons */
+
+.buttons {
+	position: absolute;
+	text-decoration: none;
+	margin-top: 377px;
+	margin-left: 494px;
+}
+
+#searchbutton {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #777777;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+	border-color: #cecece;
+	background-color: #F0F0F0;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-right: 16px;
+	padding-left: 16px;
+	margin-right: 2px;
+}
+
+#luckybutton {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #777777;
+	text-decoration: none;
+	border-style: none;
+	border-width: 1px;
+	border-color: #cecece;
+	background-color: #F0F0F0;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-right: 16px;
+	padding-left: 16px;
+	margin-left: 2px;
+}
+
+/* Code for Footer Bar */
+
+.footerbar {
+	position: fixed;
+	display: inline-block;
+	margin-top: 620px;
+	margin-left: -15px;
+	margin-right:0px;
+	background-color: #F0F0F0;
+	font-family: sans-serif;
+	font-size: 13px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 1270px;
+}
+
+.leftfooter {
+	display: inline-block;
+	padding-right: 390px;
+
+}
+
+.rightfooter {
+	display: inline-block;
+	padding-left: 390px;
+
+}
+
+#advertising {
+	display: inline-block;
+	padding-right: 25px;
+	padding-left: 20px;
+	color: #777777;
+}
+
+#business {
+	display: inline-block;
+	padding-right: 25px;
+	color: #777777;
+}
+
+#about {
+	display: inline-block;
+	padding-right: 25px;
+	color: #777777;
+}
+
+#privacy {
+	display: inline-block;
+	color: #777777;
+	padding-left: 25px;
+}
+
+#terms {
+	display: inline-block;
+	color: #777777;
+	padding-left: 25px;
+}
+
+#settings {
+	display: inline-block;
+	color: #777777;
+	padding-left: 25px;
+	padding-right: 20px;
+}
